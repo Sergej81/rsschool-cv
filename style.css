@@ -1,0 +1,85 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background: #f5f7fa;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: Montserrat;
+}
+
+.wrapper {
+    background-color: #ffffff;
+    display: flex;
+    max-width: 1200px;
+    margin: auto;
+    box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
+}
+
+.sidebar {
+    background: #1e2939;
+    width: 370px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.my-photo {
+    width: 370px;
+    height: 450px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.skills-container {
+    margin-top: 50px;
+    margin-left: 40px;
+    margin-right: 40px;
+    color: #ffffff;
+}
+.text-skills-container {
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.about-me-container {
+    margin: 30px 50px;
+}
+.projects-name {
+    color: rgb(62, 31, 121);
+
+}
+.title {
+    margin-top: 50px;
+}
+.name {
+    margin-top: 50px;
+    font-size: 30px;
+}
+.contacts {
+    margin-top: 20px;
+}
+.about-me-title {
+    margin-top: 30px;
+}
+.why-IT {
+    margin-top: 10px;
+    width: 70%;
+    text-align: justify;
+}
+.education {
+    margin-top: 30px;
+}
+.university {
+    margin-top: 10px;
+}
+.work {
+    margin-top: 30px;
+}
+ul {
+    margin-top: 5px;
+}
