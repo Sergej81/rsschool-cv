@@ -12,12 +12,14 @@ body {
     font-family: Montserrat;
 }
 
-.wrapper {
+.container {
     background-color: #ffffff;
-    display: flex;
     max-width: 1200px;
     margin: auto;
     box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
+}
+.wrapper {
+    display: flex;
 }
 
 .sidebar {
@@ -83,3 +85,27 @@ body {
 ul {
     margin-top: 5px;
 }
+footer {
+    box-sizing: border-box;
+    background: #1e2939;
+}
+.links {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.github {
+    color: #ffffff;
+    font-size: larger;
+}
+.course-logo {
+    width: 100px;
+    height: 100px;
+}
+.year{
+    display: flex;
+    justify-content: flex-end;
+    font-size: small;
+    color: #ffffff;
+}
+
